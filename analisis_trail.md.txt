@@ -1,0 +1,17 @@
+Analisis de CloudTrail - Modulo 2
+
+#Origen de creacion de la instancia
+"autoscaling.amazonaws.com".
+
+#Ultimas 5 acciones del usuario IAM
+
+ListManagedNotificationEvents
+
+DescribeAlarms
+
+ListManagedNotificationEvents
+
+ListAlarmMuteRules
+
+DescribeAlarms
+

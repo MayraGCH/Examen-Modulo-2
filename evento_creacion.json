@@ -1,0 +1,59 @@
+{
+    "eventVersion": "1.11",
+    "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "AIDAZQ3DSS4VE5S2SVQBC",
+        "arn": "arn:aws:iam::654654478122:user/MayraKristellGomezChaves",
+        "accountId": "654654478122",
+        "accessKeyId": "ASIAZQ3DSS4VAPRHMKM2",
+        "userName": "MayraKristellGomezChaves",
+        "sessionContext": {
+            "attributes": {
+                "creationDate": "2026-10-27T01:54:13Z",
+                "mfaAuthenticated": "true"
+            }
+        },
+        "invokedBy": "autoscaling.amazonaws.com"
+    },
+    "eventTime": "2026-10-27T02:24:40Z",
+    "eventSource": "ec2.amazonaws.com",
+    "eventName": "RunInstances",
+    "awsRegion": "us-east-1",
+    "sourceIPAddress": "autoscaling.amazonaws.com",
+    "userAgent": "autoscaling.amazonaws.com",
+    "errorCode": "Client.DryRunOperation",
+    "errorMessage": "Request would have succeeded, but DryRun flag is set.",
+    "requestParameters": {
+        "instancesSet": {
+            "items": [
+                {
+                    "minCount": 1,
+                    "maxCount": 1
+                }
+            ]
+        },
+        "instanceType": "t2.micro",
+        "blockDeviceMapping": {},
+        "availabilityZone": "us-east-1b",
+        "monitoring": {
+            "enabled": false
+        },
+        "subnetId": "subnet-0ac86c0c89bc84172",
+        "disableApiTermination": false,
+        "disableApiStop": false,
+        "clientToken": "b963790c-93f9-45f8-8fff-52b3abab8e6c",
+        "launchTemplate": {
+            "launchTemplateId": "lt-00481736710800331",
+            "version": "1"
+        }
+    },
+    "responseElements": null,
+    "requestID": "520ba38f-ed8c-439a-9f90-ed91d40407ca",
+    "eventID": "0e84caed-f7ef-470b-b2a7-c47b70c7c13d",
+    "readOnly": false,
+    "eventType": "AwsApiCall",
+    "managementEvent": true,
+    "recipientAccountId": "654654478122",
+    "eventCategory": "Management",
+    "sessionCredentialFromConsole": "true"
+}
